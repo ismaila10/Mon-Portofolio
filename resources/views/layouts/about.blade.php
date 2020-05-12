@@ -23,7 +23,10 @@
                                 @endforeach
                         </ul>
                     </div>
-                    <a href="" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Télécharger CV <i class="fa fa-download"></i></a>
+
+                    @foreach(json_decode($hp->listeprofil()->cv) as $file)
+                        <a href="{{asset('storage/'.$file->download_link  ?? '')}}" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s" target="_blank">Telecharger CV <i class="fa fa-download"></i></a>
+                    @endforeach
                 </div>
             </div>
         </div>
