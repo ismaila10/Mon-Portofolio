@@ -7,11 +7,11 @@
             <div class="part col-sm-12">
                 <div class="portfolio-nav col-sm-12" id="filter-button">
                     <ul>
-                        <li data-filter="*" class="current wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s"> <span>All Categories</span></li>
-                        <li data-filter=".user-interface" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"><span>Web Design</span></li>
-                        <li data-filter=".branding" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"><span>Branding</span></li>
-                        <li data-filter=".mockup" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><span>Mockups</span></li>
-                        <li data-filter=".ui" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><span>Photography</span></li>
+                        <li data-filter="*" class="current wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s"> <span>Toutes Categories</span></li>
+                        <li data-filter=".user-interface" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"><span>Csharp - WPF</span></li>
+                        <li data-filter=".branding" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"><span>Laravel - Vue JS</span></li>
+                        <li data-filter=".ui" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><span>Java - Javafx</span></li>
+                        <li data-filter=".mockup" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><span>Photography</span></li>
                     </ul>
                 </div>
                 <div class="mh-project-gallery col-sm-12 wow fadeInUp" id="project-gallery" data-wow-duration="0.8s" data-wow-delay="0.5s">
@@ -27,7 +27,18 @@
                                 </figcaption>
                             </figure>
                         </div>
-                        <div class="grid-item col-md-4 col-sm-6 col-xs-12 ui mockup">
+                        <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
+                            <figure>
+                                <img src="assets/images/portfolio/g8.png" alt="img04">
+                                <figcaption class="fig-caption">
+                                    <i class="fa fa-search"></i>
+                                    <h5 class="title">Creative Design ui</h5>
+                                    <span class="sub-title">Photograpy</span>
+                                    <a href="assets/images/portfolio/g8.png" data-fancybox data-src="#mh"></a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface ui mockup">
                             <figure>
                                 <img src="assets/images/portfolio/g2.png" alt="img04">
                                 <figcaption class="fig-caption">
@@ -49,7 +60,7 @@
                                 </figcaption>
                             </figure>
                         </div>
-                        <div class="grid-item col-md-4 col-sm-6 col-xs-12 branding">
+                        <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface branding">
                             <figure>
                                 <img src="assets/images/portfolio/g5.png" alt="img04">
                                 <figcaption class="fig-caption">
@@ -71,7 +82,7 @@
                                 </figcaption>
                             </figure>
                         </div>
-                        <div class="grid-item col-md-4 col-sm-6 col-xs-12 branding">
+                        <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface branding">
                             <figure>
                                 <img src="assets/images/portfolio/g6.png" alt="img04">
                                 <figcaption class="fig-caption">
@@ -79,17 +90,6 @@
                                     <h5 class="title">Creative Design</h5>
                                     <span class="sub-title">Photograpy</span>
                                     <a href="assets/images/portfolio/g6.png" data-fancybox data-src="#mh"></a>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="grid-item col-md-4 col-sm-6 col-xs-12 branding">
-                            <figure>
-                                <img src="assets/images/portfolio/g8.png" alt="img04">
-                                <figcaption class="fig-caption">
-                                    <i class="fa fa-search"></i>
-                                    <h5 class="title">Creative Design</h5>
-                                    <span class="sub-title">Photograpy</span>
-                                    <a href="assets/images/portfolio/g8.png" data-fancybox data-src="#mh"></a>
                                 </figcaption>
                             </figure>
                         </div>

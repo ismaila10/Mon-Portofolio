@@ -16,10 +16,13 @@ class CreateProjetsTable extends Migration
         Schema::create('projets', function (Blueprint $table) {
             $table->id();
             $table->string('libelle');
+            $table->string('slug');
             $table->date('date_creation');
             $table->string('outils')->nullable();
             $table->string('describe')->nullable();
+            $table->string('filename');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
